@@ -12,8 +12,10 @@ class AnimeRecommendationPipeline:
             logger.info("Initializing Recommendation Pipeline")
 
             vector_builder = VectorStoreBuilder(
-                csv_path="", persist_dir=persist_dir
-            )
+                csv_path="data/anime.csv",
+                persist_dir=persist_dir
+)
+
 
             retriever = vector_builder.load_vector_store().as_retriever()
 
