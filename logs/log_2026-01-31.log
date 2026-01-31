@@ -1,0 +1,27 @@
+2026-01-31 15:58:37,135 - INFO - Starting to build pipeline...
+2026-01-31 15:58:37,198 - INFO - Data  loaded and processed...
+2026-01-31 15:58:37,208 - INFO - Use pytorch device_name: cpu
+2026-01-31 15:58:37,208 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-31 15:58:45,058 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-01-31 15:59:08,320 - INFO - Vector store Built sucesfully....
+2026-01-31 15:59:08,320 - INFO - Pipeline built sucessfully....
+2026-01-31 16:08:02,652 - INFO - Initializing Recommendation Pipeline
+2026-01-31 16:08:02,660 - INFO - Use pytorch device_name: cpu
+2026-01-31 16:08:02,660 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-31 16:08:12,190 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-01-31 16:08:13,885 - INFO - Pipeline initialized successfully
+2026-01-31 16:08:39,460 - INFO - Received query: give me anime movie
+2026-01-31 16:08:40,799 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-31 16:08:42,848 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-31 16:09:31,733 - INFO - Initializing Recommendation Pipeline
+2026-01-31 16:09:31,744 - INFO - Use pytorch device_name: cpu
+2026-01-31 16:09:31,744 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-31 16:09:39,837 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-01-31 16:09:41,420 - INFO - Pipeline initialized successfully
+2026-01-31 16:10:25,684 - INFO - Received query: happy
+2026-01-31 16:10:27,605 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-31 16:14:58,809 - INFO - Initializing Recommendation Pipeline
+2026-01-31 16:14:58,817 - INFO - Use pytorch device_name: cpu
+2026-01-31 16:14:58,817 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-31 16:15:07,553 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-01-31 16:15:09,118 - INFO - Pipeline initialized successfully
